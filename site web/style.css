@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Advent Pro' , sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/****************************PageDeGarde*******************************************/
+.PageDeGarde{
+    padding-top: 20px;
+    background: burlywood;
+    background-size: cover;
+    height: 550px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    font-family: 'Dancing Script' , cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 110px; 
+    text-shadow: 1px 3px 2px black;
+}
+#premierTrait{
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 1px 3px 2px black;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+}
+h3{
+    text-align: center;
+    padding: 25px;
+    background-color: lemonchiffon;
+}
+#actualité{
+    height: 100px;
+    background-color:burlywood;
+    padding-top: 10px;
+}
+h4{
+    text-align: center;
+    
+}
+#lien{
+    background-color: burlywood;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/***************************************FOOTER**************************************/
+footer{
+    background-color: #524a3a;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    height: 620px;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input ,textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'advent pro' , sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxièmeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+/************************C1*************************************/
+.t1 td, .t1 th{
+    border: 2px solid orange;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #FFFAE1;
+}
+table{
+    margin: auto;
+}
+#ligueDesChampions, #ligueEuropa, #ligueEuropaConférence{
+    background-color: #FFFAE1;
+    height: 820px;
+}
+img{
+    width: 20px;
+    height: 15px;
+}
+
+/**********************C3*******************************************/
+#ligueEuropa{
+    height: 900px;
+}
+/*************************C4****************************************/
